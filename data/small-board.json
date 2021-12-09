@@ -1,0 +1,78 @@
+[
+    {
+        "title": "testing board",
+        "createdBy": {
+            "_id": "u101",
+            "fullname": "Ben Ernst",
+            "imgUrl": ""
+        },
+        "style": { "bgColor": "#afafaf", "bgImg": "none" },
+        "labels": [{
+            "id": "l101",
+            "title": "",
+            "color": "#409EFF"
+        },
+        {
+            "id": "l102",
+            "title": "",
+            "color": "#67C23A"
+        },
+        {
+            "id": "l103",
+            "title": "",
+            "color": "#E6A23C"
+        },
+        {
+            "id": "l104",
+            "title": "",
+            "color": "#F56C6C"
+        }
+        ],
+        "members":
+            [
+                {
+                    "_id": "u101",
+                    "fullname": "Ben Ernst",
+                    "imgUrl": ""
+                },
+                {
+                    "_id": "u102",
+                    "fullname": "Or Baadani",
+                    "imgUrl": ""
+                },
+                {
+                    "_id": "u103",
+                    "fullname": "Chen leiv",
+                    "imgUrl": ""
+                }
+            ],
+        "groups":
+            [
+                {
+                    "id": "g101", 
+                    "title": "test",
+                    "tasks":
+                        [
+                            {
+                                "id": "t101",
+                                "title": "connecting with Atlas",
+                                "description": "today",
+                                "comments": [],
+                                "checklists": [],
+                                "members": [],
+                                "labelIds": [],
+                                "createdAt": "",
+                                "dueDate": "",
+                                "byMember": {
+                                    "_id": "u102",
+                                    "username": "Or",
+                                    "fullname": "Or Baadani",
+                                    "imgUrl": ""
+                                },
+                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]

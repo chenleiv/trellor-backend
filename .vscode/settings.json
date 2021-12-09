@@ -1,0 +1,19 @@
+{
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#ac9fb9",
+        "statusBar.background": "#9282a3",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#78678b",
+        "statusBarItem.remoteBackground": "#9282a3",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#9282a3",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#9282a399",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#9282a3",
+    "cSpell.words": [
+        "Baadani",
+        "fullname"
+    ]
+}
