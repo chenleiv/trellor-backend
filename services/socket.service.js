@@ -14,35 +14,36 @@ function connectSockets(http, session) {
         socket.broadcast.emit('User connected', 'some joined')
 
         socket.on('disconnect', socket => {
-            console.log('Someone disconnected')
-        })
-        // socket.on('chat topic', topic => {
-        //     if (socket.myTopic === topic) return;
-        //     if (socket.myTopic) {
-        //         socket.leave(socket.myTopic)
-        //     }
-        //     socket.join(topic)
-        //     socket.myTopic = topic
-        // })
-        // socket.on('chat newMsg', msg => {
-        //     console.log('Emitting Chat msg', msg);
-        //     // emits to all sockets:
-        //     // gIo.emit('chat addMsg', msg)
-        //     // emits only to sockets in the same room
-        //     gIo.to(socket.myTopic).emit('chat addMsg', msg)
-        // })
-        // socket.on('user-watch', userId => {
-        //     socket.join('watching:' + userId)
-        // })
-        // socket.on('set-user-socket', userId => {
-        //     logger.debug(`Setting (${socket.id}) socket.userId = ${userId}`)
-        //     socket.userId = userId
-        // })
-        // socket.on('unset-user-socket', () => {
-        //     delete socket.userId
-        // })
+                console.log('Someone disconnected')
+            })
+            // socket.on('chat topic', topic => {
+            //     if (socket.myTopic === topic) return;
+            //     if (socket.myTopic) {
+            //         socket.leave(socket.myTopic)
+            //     }
+            //     socket.join(topic)
+            //     socket.myTopic = topic
+            // })
+            // socket.on('chat newMsg', msg => {
+            //     console.log('Emitting Chat msg', msg);
+            //     // emits to all sockets:
+            //     // gIo.emit('chat addMsg', msg)
+            //     // emits only to sockets in the same room
+            //     gIo.to(socket.myTopic).emit('chat addMsg', msg)
+            // })
+            // socket.on('user-watch', userId => {
+            //     socket.join('watching:' + userId)
+            // })
+            // socket.on('set-user-socket', userId => {
+            //     logger.debug(`Setting (${socket.id}) socket.userId = ${userId}`)
+            //     socket.userId = userId
+            // })
+            // socket.on('unset-user-socket', () => {
+            //     delete socket.userId
+            // })
         socket.on('update-board', board => {
             socket.broadcast.emit('update-board', board)
+            gIo.emit('update-board', board)
         })
 
     })
@@ -69,7 +70,7 @@ async function broadcast({ type, data, room = null, userId }) {
     console.log('data :>>', data);
     // console.log('BROADCASTING', JSON.stringify(arguments, null, 2));
     const excludedSocket = await _getUserSocket(userId)
-    console.log('excludedSocket', excludedSocket);
+        // console.log('excludedSocket', excludedSocket);
     if (!excludedSocket) {
         logger.debug('Shouldnt happen, socket not found')
         _printSockets();
@@ -104,6 +105,7 @@ async function _printSockets() {
     console.log(`Sockets: (count: ${sockets.length}):`)
     sockets.forEach(_printSocket)
 }
+
 function _printSocket(socket) {
     console.log(`Socket - socketId: ${socket.id} userId: ${socket.userId}`)
 }

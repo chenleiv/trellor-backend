@@ -1,429 +1,375 @@
-[
-    {
-        "title": "Demo Board",
-        "createdAt": 1638284394000,
-        "createdBy": {
-            "_id": "u101",
-            "fullname": "Ben Ernst",
-            "imgUrl": ""
-        },
-        "style": { "bgColor": "#afafaf", "bgImg": "none" },
-        "labels": [{
-            "id": "l101",
-            "title": "",
-            "color": "#409EFF"
-        },
+{
+    "_id" : ObjectId("61b3936487b766452ac5f158"),
+    "title" : "Demo Board",
+    "createdAt" : 1639158628861.0,
+    "createdBy" : {
+        "_id" : "",
+        "fullname" : "",
+        "imgUrl" : ""
+    },
+    "style" : {
+        "bgColor" : "transparent",
+        "bgImg" : "url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODA5NDV8MHwxfHNlYXJjaHwxNHx8bGFuZHNjYXBlfGVufDB8fHx8MTYzOTE1NzU2OA&ixlib=rb-1.2.1&q=80&w=1080)"
+    },
+    "labels" : [ 
         {
-            "id": "l102",
-            "title": "",
-            "color": "#67C23A"
-        },
+            "id" : "l101",
+            "title" : "",
+            "color" : "#409EFF"
+        }, 
         {
-            "id": "l103",
-            "title": "",
-            "color": "#E6A23C"
-        },
+            "id" : "l102",
+            "title" : "",
+            "color" : "#67C23A"
+        }, 
         {
-            "id": "l104",
-            "title": "",
-            "color": "#F56C6C"
+            "id" : "l103",
+            "title" : "",
+            "color" : "#E6A23C"
+        }, 
+        {
+            "id" : "l104",
+            "title" : "",
+            "color" : "#F56C6C"
         }
-        ],
-        "members":
-            [
+    ],
+    "members" : [ 
+        {
+            "_id" : "",
+            "fullname" : "",
+            "imgUrl" : ""
+        }
+    ],
+    "groups" : [ 
+        {
+            "id" : "XRzbs",
+            "title" : "General",
+            "tasks" : [ 
                 {
-                    "_id": "u101",
-                    "fullname": "Ben Ernst",
-                    "imgUrl": ""
-                },
+                    "id" : "bOw2n",
+                    "title" : "Drag and Drop",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
                 {
-                    "_id": "u102",
-                    "fullname": "Or Baadani",
-                    "imgUrl": ""
-                },
-                {
-                    "_id": "u103",
-                    "fullname": "Chen leiv",
-                    "imgUrl": ""
+                    "id" : "t7uEd",
+                    "title" : "Creating Demo Data Model",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
                 }
-            ],
-        "groups":
-            [
+            ]
+        }, 
+        {
+            "id" : "zKREf",
+            "title" : "Backlog - server",
+            "tasks" : [ 
                 {
-                    "id": "g101", 
-                    "title": "General",
-                    "tasks":
-                        [
-                            {
-                                "id": "t101",
-                                "title": "Meeting with Asi, scss",
-                                "description": "Tuesday, 15:45",
-                                "comments": ["preparing questions"],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Or",
-                                    "fullname": "Or Baadani",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            }
-                        ]
-                },
+                    "id" : "IDT72",
+                    "title" : "Filter Cmp",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
                 {
-                    "id": "g102",
-                    "title": "Backlog client",
-                    "tasks":
-                        [
-                            {
-                                "id": "t102",
-                                "title": "Task-Labels",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u101",
-                                    " username": "Ben",
-                                    "fullname": "Ben Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t103",
-                                "title": "Filter Cmp",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u101",
-                                    "username": "Ben",
-                                    "fullname": "Ben Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            }
-                        ]
-                },
+                    "id" : "BmIZL",
+                    "title" : "Connecting Backend & Frontend",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
                 {
-                    "id": "g103",
-                    "title": "Backlog - server",
-                    "tasks":
-                        [
-                            {
-                                "id": "t104",
-                                "title": "Build Mongo Atlas DB",
-                                "description": "dsdsds",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t105",
-                                "title": "Connecting Backend & Frontend",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            }
-                        ]
-                },
+                    "id" : "u4XeQ",
+                    "title" : "Task-Labels",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
                 {
-                    "id": "g104",
-                    "title": "In development",
-                    "tasks":
-                        [
-                            {
-                                "id": "t106",
-                                "title": "Drag and Drop",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t107",
-                                "title": "Board Header",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t108",
-                                "title": "Task-Details (modal)",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u101",
-                                    "username": "Ben",
-                                    "fullname": "Bem Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t109",
-                                "title": "Aside Menu",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Or",
-                                    "fullname": "Or Baadani",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t110",
-                                "title": "Workspace Page",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Or",
-                                    "fullname": "Or Baadani",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t111",
-                                "title": "Home Page",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u101",
-                                    "username": "Ben",
-                                    "fullname": "Ben Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t112",
-                                "title": "Main Header",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Or",
-                                    "fullname": "Or Baadani",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t113",
-                                "title": "Group-Preview cmp",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen Leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": { "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t114",
-                                "title": "Task-Preview cmp",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Ben",
-                                    "fullname": "Ben Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            }
-                        ]
-                },
-                {
-                    "id": "g105",
-                    "title": "Done",
-                    "tasks":
-                        [
-                            {
-                                "id": "t115",
-                                "title": "Building Main Structure",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u102",
-                                    "username": "Or",
-                                    "fullname": "Or Baadani",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t116",
-                                "title": "Creating Demo Data Model",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u103",
-                                    "username": "Chen",
-                                    "fullname": "Chen leiv",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            },
-                            {
-                                "id": "t117",
-                                "title": "Connecting to GitHub Pages",
-                                "description": "",
-                                "comments": [],
-                                "checklists": [],
-                                "members": [],
-                                "labelIds": [],
-                                "createdAt": "",
-                                "dueDate": "",
-                                "byMember": {
-                                    "_id": "u101",
-                                    "username": "Ben",
-                                    "fullname": "Bem Ernst",
-                                    "imgUrl": ""
-                                },
-                                "coverStyle": {  "bgColor": "transparent", "bgImg": "none" }
-                            }
-                        ]
+                    "id" : "xITeh",
+                    "title" : "Connecting to GitHub Pages",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
                 }
-            ],
-        "activities": [
-            {
-                "id": "a101",
-                "txt": "Changed Color",
-                "createdAt": 154514,
-                "byMember":
+            ]
+        }, 
+        {
+            "id" : "JzMKW",
+            "title" : "Backlog client",
+            "tasks" : [ 
                 {
-                    "_id": "u101",
-                    "fullname": "Ben Ernst",
-                    "imgUrl": ""
+                    "id" : "ytzZR",
+                    "title" : "Meeting with Asi, scss",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "B0I7c",
+                    "title" : "Building Main Structure",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "0u7gD",
+                    "title" : "Aside Menu",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
                 }
-            },
-            {
-                "id": "a102",
-                "txt": "Added a task",
-                " createdAt": 154516,
-                "byMember": {
-                    "_id": "u102",
-                    "fullname": "Or Baadani",
-                    "imgUrl": ""
+            ]
+        }, 
+        {
+            "id" : "J3GMS",
+            "title" : "In development",
+            "tasks" : [ 
+                {
+                    "id" : "qM7e9",
+                    "title" : "Task-Details (modal)",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "bdVg0",
+                    "title" : "Build Mongo Atlas DB",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "ACrG1",
+                    "title" : "Workspace Page",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "RBqjc",
+                    "title" : "Home Page",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "aJ4q7",
+                    "title" : "Main Header",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "qUdGK",
+                    "title" : "Group-Preview cmp",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "xS1In",
+                    "title" : "Task-Preview cmp",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
                 }
-            },
-            {
-                "id": "a103",
-                "txt": "Changed Status",
-                "createdAt": 154520,
-                "byMember": {
-                    "_id": "u103",
-                    "fullname": "Chen Leiv",
-                    "imgUrl": ""
-                }
-            }
-        ],
-        "isStarred": false
-    }
-]
+            ]
+        }
+    ],
+    "activities" : [],
+    "isStarred" : false
+}

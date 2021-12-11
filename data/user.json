@@ -1,26 +1,25 @@
-[
-{
-    "fullname": "Ben Ernst",
-    "username": "ben@gmail.com",
-    "password": "ernst123",
-    "imgUrl": ""
-},
-{
-    "fullname": "Or Baadani",
-    "username": "or@gmail.com",
-    "password": "baadani123",
-    "imgUrl": ""
-},
-{
-    "fullname": "Chen Leiv",
-    "username": "chen@gmail.com",
-    "password": "leiv123",
-    "imgUrl": ""
-},
-{
-    "fullname": "Gest",
-    "username": "gest@gmail.com",
-    "password": "gest123",
-    "imgUrl": ""
-}
+[{
+        "fullname": "Ben Ernst",
+        "username": "ben@gmail.com",
+        "password": "ernst123",
+        "imgUrl": ""
+    },
+    {
+        "fullname": "Or Baadani",
+        "username": "or@gmail.com",
+        "password": "baadani123",
+        "imgUrl": ""
+    },
+    {
+        "fullname": "Chen Leiv",
+        "username": "chen@gmail.com",
+        "password": "leiv123",
+        "imgUrl": ""
+    },
+    {
+        "fullname": "Guest",
+        "username": "guest@gmail.com",
+        "password": "guest123",
+        "imgUrl": "https://res.cloudinary.com/cloudinaryorb/image/upload/v1639142324/guest_b8lh6r.png"
+    }
 ]
