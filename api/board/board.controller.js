@@ -50,7 +50,7 @@ async function updateBoard(req, res) {
     res.json(updatedBoard)
     // console.log('updatedBoard', updatedBoard);
     socketService.broadcast({ type: 'update-board', data: updatedBoard })
-    // console.log('updatedBoard', updatedBoard);
+    console.log('updatedBoard', updatedBoard);
     //, userId: review.byUserId 
     // socketService.emitToUser({ type: 'review-about-you', data: review, userId: review.aboutUserId })
     // socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
