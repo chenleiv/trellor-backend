@@ -43,6 +43,7 @@ function connectSockets(http, session) {
             // })
         socket.on('update-board', board => {
             socket.broadcast.emit('update-board', board)
+            gIo.emit('update-board', board)
         })
 
     })
