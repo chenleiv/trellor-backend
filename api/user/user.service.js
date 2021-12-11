@@ -1,7 +1,6 @@
-
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
-// const boardService = require('../review/review.service')
+    // const boardService = require('../review/review.service')
 const ObjectId = require('mongodb').ObjectId
 
 module.exports = {
@@ -19,7 +18,7 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection('user')
         var users = await collection.find().toArray()
-        //.find(criteria)
+            //.find(criteria)
 
         // users = users.map(user => {
         //     delete user.password
@@ -82,7 +81,8 @@ async function update(user) {
             _id: ObjectId(user._id), // needed for the returnd obj
             username: user.username,
             fullname: user.fullname,
-            score: user.score,
+            imgUrl: user.imgUrl,
+            // score: user.score,
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -100,7 +100,8 @@ async function add(user) {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            score: 100
+            imgUrl: user.imgUrl,
+
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
@@ -129,7 +130,3 @@ async function add(user) {
 //     }
 //     return criteria
 // }
-
-
-
-

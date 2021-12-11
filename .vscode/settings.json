@@ -9,7 +9,14 @@
         "titleBar.activeBackground": "#9282a3",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#9282a399",
-        "titleBar.inactiveForeground": "#15202b99"
+        "titleBar.inactiveForeground": "#15202b99",
+        "activityBar.activeBackground": "#ac9fb9",
+        "activityBar.activeBorder": "#f2efed",
+        "activityBar.background": "#ac9fb9",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#f2efed",
+        "activityBarBadge.foreground": "#15202b"
     },
     "peacock.color": "#9282a3",
     "cSpell.words": [
