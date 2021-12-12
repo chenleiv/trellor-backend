@@ -3,6 +3,7 @@ const cors = require('cors')
 const path = require('path')
 const expressSession = require('express-session')
 
+
 const app = express()
 const http = require('http').createServer(app)
 
@@ -31,6 +32,7 @@ const boardRoutes = require('./api/board/board.routes')
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const { connectSockets } = require('./services/socket.service')
+
 
 // routes
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')

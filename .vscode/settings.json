@@ -1,26 +1,19 @@
 {
-    "workbench.colorCustomizations": {
-        "sash.hoverBorder": "#ac9fb9",
-        "statusBar.background": "#9282a3",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#78678b",
-        "statusBarItem.remoteBackground": "#9282a3",
-        "statusBarItem.remoteForeground": "#15202b",
-        "titleBar.activeBackground": "#9282a3",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#9282a399",
-        "titleBar.inactiveForeground": "#15202b99",
-        "activityBar.activeBackground": "#ac9fb9",
-        "activityBar.activeBorder": "#f2efed",
-        "activityBar.background": "#ac9fb9",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#f2efed",
-        "activityBarBadge.foreground": "#15202b"
-    },
-    "peacock.color": "#9282a3",
     "cSpell.words": [
         "Baadani",
         "fullname"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#736fa6",
+        "statusBar.background": "#5a568c",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#736fa6",
+        "statusBarItem.remoteBackground": "#5a568c",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#5a568c",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#5a568c99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#5A568C"
 }
