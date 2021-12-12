@@ -36,6 +36,8 @@ async function addBoard(req, res) {
     // board.byUserId = req.session.user._id
     const addedBoard = await boardService.add(board)
     res.json(addedBoard)
+    socketService.broadcast({ type: 'update-board', data: addedBoard })
+
   } catch (err) {
     logger.error('Failed to add board')
     res.status(500).send({ err: 'Failed to add board' })
@@ -66,6 +68,8 @@ async function removeBoard(req, res) {
     const boardId = req.params.id;
     const removedId = await boardService.remove(boardId)
     res.send(removedId)
+    socketService.broadcast({ type: 'update-board', data: removedId })
+
   } catch (err) {
     logger.error('Failed to remove board', err)
     res.status(500).send({ err: 'Failed to remove board' })
