@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 12/11/2021, 1:49:38 PM - INFO - Server is running on port: 3030 
 12/11/2021, 1:50:53 PM - DEBUG - auth.service - login with username: guest@gmail.com (sid: k5IFs42AJigOYMF_xeZ_riQMbOdn_7O8)
 12/11/2021, 1:50:54 PM - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') (sid: k5IFs42AJigOYMF_xeZ_riQMbOdn_7O8)
@@ -2758,3 +2759,5 @@
 12/13/2021, 10:48:04 AM - DEBUG - auth.service - login with username: janeleiv@gmail.com (sid: exV7DVmXt9VZRgqHHOLfMfWg9aNn1mC1)
 12/13/2021, 10:48:04 AM - DEBUG - auth.route - new account created: undefined (sid: exV7DVmXt9VZRgqHHOLfMfWg9aNn1mC1)
 12/13/2021, 10:48:04 AM - DEBUG - auth.service - login with username: janeleiv@gmail.com (sid: exV7DVmXt9VZRgqHHOLfMfWg9aNn1mC1)
+=======
+>>>>>>> 307652625c99ee46c9bef3ab4f01f135f7699f72
