@@ -3479,3 +3479,12 @@
 =======
 >>>>>>> 307652625c99ee46c9bef3ab4f01f135f7699f72
 >>>>>>> 101bd74bc3a0aec3ae642da6d749d895244f0262
+13.12.2021, 11:39:38 - INFO - Server is running on port: 3030 
+13.12.2021, 12:42:04 - DEBUG - auth.service - login with username: null (sid: lgdA03M0z0dxoLHoqFqdQdpxJxzClez9)
+13.12.2021, 12:42:04 - ERROR - Failed to Login TypeError: Cannot read properties of null (reading 'password') (sid: lgdA03M0z0dxoLHoqFqdQdpxJxzClez9)
+13.12.2021, 12:42:07 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: lgdA03M0z0dxoLHoqFqdQdpxJxzClez9)
+13.12.2021, 12:42:07 - DEBUG - auth.route - new account created: undefined (sid: lgdA03M0z0dxoLHoqFqdQdpxJxzClez9)
+13.12.2021, 12:42:07 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: lgdA03M0z0dxoLHoqFqdQdpxJxzClez9)
+13.12.2021, 12:42:26 - INFO - Server is running on port: 3030 
+13.12.2021, 12:50:29 - INFO - Server is running on port: 3030 
+13.12.2021, 13:06:21 - INFO - Server is running on port: 3030 
