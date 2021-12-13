@@ -63,30 +63,30 @@ async function update(board) {
         await collection.updateOne({ "_id": id }, { $set: { ...board } })
         return board
     } catch (err) {
-        logger.error(`cannot update board ${boardId}`, err)
+        logger.error(`cannot update board ${board}`, err)
         throw err
     }
 }
 
-function _buildCriteria(filterBy) {
-    const criteria = {}
-    if (filterBy.title) {
-        const regex = new RegExp(filterBy.title, 'i')
-        const txtCriteria = { $regex: regex }
-        criteria.title = txtCriteria
-    }
-    if (filterBy.members !== '' && filterBy !== undefined) {
-        criteria.members = { $eq: JSON.parse(filterBy.members) }
-        console.log('criteria.members', criteria.members);
-        console.log('filterBy.members', filterBy.members);
-    }
-    if (filterBy.labels) {
-        if (filterBy.labels.length) {
-            criteria.labels = { $in: filterBy.labels }
-        }
-    }
-    return criteria
-}
+// function _buildCriteria(filterBy) {
+//     const criteria = {}
+//     if (filterBy.title) {
+//         const regex = new RegExp(filterBy.title, 'i')
+//         const txtCriteria = { $regex: regex }
+//         criteria.title = txtCriteria
+//     }
+//     if (filterBy.members !== '' && filterBy !== undefined) {
+//         criteria.members = { $eq: JSON.parse(filterBy.members) }
+//         console.log('criteria.members', criteria.members);
+//         console.log('filterBy.members', filterBy.members);
+//     }
+//     if (filterBy.labels) {
+//         if (filterBy.labels.length) {
+//             criteria.labels = { $in: filterBy.labels }
+//         }
+//     }
+//     return criteria
+// }
 
 module.exports = {
     remove,

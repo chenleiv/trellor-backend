@@ -78,7 +78,7 @@ async function update(user) {
     try {
         // peek only updatable fields!
         const userToSave = {
-            _id: ObjectId(user._id), // needed for the returnd obj
+            _id: ObjectId(user._id), // needed for the return obj
             username: user.username,
             fullname: user.fullname,
             imgUrl: user.imgUrl,

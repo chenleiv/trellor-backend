@@ -18,7 +18,7 @@ async function getBoards(req, res) {
 async function getBoardById(req, res) {
   try {
     const boardId = req.params.id;
-    console.log('boardId', boardId);
+    // console.log('boardId', boardId);
     // console.log('boardId controller', boardId);
     const board = await boardService.getById(boardId)
     // console.log('board controller', board);
@@ -35,6 +35,7 @@ async function addBoard(req, res) {
     const board = req.body;
     // board.byUserId = req.session.user._id
     const addedBoard = await boardService.add(board)
+    console.log('addedBoard', addedBoard);
     res.json(addedBoard)
     socketService.broadcast({ type: 'update-board', data: addedBoard })
 
@@ -49,13 +50,12 @@ async function updateBoard(req, res) {
   try {
     const board = req.body;
     const updatedBoard = await boardService.update(board)
-    res.json(updatedBoard)
-    // console.log('updatedBoard', updatedBoard);
-    socketService.broadcast({ type: 'update-board', data: updatedBoard })
     console.log('updatedBoard', updatedBoard);
-    //, userId: review.byUserId 
-    // socketService.emitToUser({ type: 'review-about-you', data: review, userId: review.aboutUserId })
-    // socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
+    res.json(updatedBoard)
+    console.log('updatedBoard', updatedBoard);
+    // socketService.broadcast({ type: 'update-board', data: updatedBoard })
+    // console.log('updatedBoard', updatedBoard);
+
   } catch (err) {
     logger.error('Failed to update board', err)
     res.status(500).send({ err: 'Failed to update board' })
@@ -68,7 +68,7 @@ async function removeBoard(req, res) {
     const boardId = req.params.id;
     const removedId = await boardService.remove(boardId)
     res.send(removedId)
-    socketService.broadcast({ type: 'update-board', data: removedId })
+    // socketService.broadcast({ type: 'update-board', data: removedId })
 
   } catch (err) {
     logger.error('Failed to remove board', err)

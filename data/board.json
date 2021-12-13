@@ -1,7 +1,7 @@
+[ 
 {
-    "_id" : ObjectId("61b3936487b766452ac5f158"),
     "title" : "Demo Board",
-    "createdAt" : 1639158628861.0,
+    "createdAt" : 1639319587172.0,
     "createdBy" : {
         "_id" : "",
         "fullname" : "",
@@ -9,51 +9,233 @@
     },
     "style" : {
         "bgColor" : "transparent",
-        "bgImg" : "url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODA5NDV8MHwxfHNlYXJjaHwxNHx8bGFuZHNjYXBlfGVufDB8fHx8MTYzOTE1NzU2OA&ixlib=rb-1.2.1&q=80&w=1080)"
+        "bgImg" : "url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODA5NDV8MHwxfHNlYXJjaHwxNHx8bGFuZHNjYXBlfGVufDB8fHx8MTYzOTI0NzQxNg&ixlib=rb-1.2.1&q=80&w=1080)"
     },
     "labels" : [ 
         {
             "id" : "l101",
-            "title" : "",
+            "title" : "Done",
             "color" : "#409EFF"
         }, 
         {
             "id" : "l102",
-            "title" : "",
+            "title" : "Next Month",
             "color" : "#67C23A"
         }, 
         {
             "id" : "l103",
-            "title" : "",
+            "title" : "Next Week",
             "color" : "#E6A23C"
         }, 
         {
             "id" : "l104",
-            "title" : "",
+            "title" : "Urgent",
             "color" : "#F56C6C"
+        },
+        {
+            "id" : "l105",
+            "title" : "QA",
+            "color" : "#9C489F"
         }
     ],
     "members" : [ 
         {
-            "_id" : "",
-            "fullname" : "",
-            "imgUrl" : ""
+            "_id" : "61b606f018d964815cd01327",
+            "username" : "Chen Leiv",
+            "password" : "$2b$10$wJ7dWRAjCv97KQg/fnA7VemVPf3B7rNpeoZ5ME4lFeO7b/4htFwfy",
+            "fullname" : "Chen Leiv",
+            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gi-Hfg56aS8K24jNgP3e8SocNqpKY6qiaT1DRI9Pg=s96-c"
+        }, 
+        {
+            "_id" : "61b606c118d964815cd01326",
+            "username" : "Or Baadani",
+            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+            "fullname" : "Or Baadani",
+            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+        }, 
+        {
+            "_id" : "61b5d468a89a7b4af0acbc10",
+            "username" : "benernst3@gmail.com",
+            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+            "fullname" : "Ben Ernst",
+            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
         }
     ],
     "groups" : [ 
         {
-            "id" : "XRzbs",
-            "title" : "General",
+            "id" : "9pmHs",
+            "title" : "Backlog- server",
             "tasks" : [ 
                 {
-                    "id" : "bOw2n",
-                    "title" : "Drag and Drop",
+                    "id" : "dBR2K",
+                    "title" : "DB Building\n",
+                    "description" : "",
+                    "comments" : [ 
+                        {
+                            "txt" : "Need to add collection",
+                            "createdAt" : 1639324963802.0
+                        }
+                    ],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l104"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "Dec 13 2021",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "#89609e",
+                        "bgImg" : "none"
+                    },
+                    "location" : {
+                        "address" : "254 Broadway, New York, NY 10007, USA",
+                        "coords" : {
+                            "lat" : 40.7127753,
+                            "lng" : -74.0059728
+                        }
+                    },
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "8phVl",
+                    "title" : " Assignment for Cassandra imports",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
                     "checklists" : [],
                     "members" : [],
                     "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "Aug 11 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "qNg2s",
+                    "title" : "Replace AWS CWAgent with node-exporter to reduce costs",
+                    "description" : " CWAgent with node-exporter",
+                    "comments" : [ 
+                        {
+                            "txt" : " node-exporter",
+                            "createdAt" : 1639320307183.0
+                        }, 
+                        {
+                            "txt" : " CWAgent with node-exporter",
+                            "createdAt" : 1639320297647.0
+                        }
+                    ],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [ 
+                        "l103", 
+                        "l102"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "#519839",
+                        "bgImg" : "none"
+                    },
+                    "location" : {
+                        "address" : "Av fortaleza galpao 07, 573 - itinga, Nova Nazaré - MT, 42700-000, Brazil",
+                        "coords" : {
+                            "lat" : -14.235004,
+                            "lng" : -51.92528
+                        }
+                    },
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "Fq5No",
+                    "title" : "Automate backup role",
+                    "description" : "backup role",
+                    "comments" : [ 
+                        {
+                            "txt" : "backup role",
+                            "createdAt" : 1639319996139.0
+                        }, 
+                        {
+                            "txt" : "backup role",
+                            "createdAt" : 1639319992949.0
+                        }
+                    ],
+                    "attachments" : [ 
+                        {
+                            "title" : "WhatsApp_Image_2021-12-12_at_4.15.56_PM_ls40u2.jpg",
+                            "url" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639319970/WhatsApp_Image_2021-12-12_at_4.15.56_PM_ls40u2.jpg",
+                            "isCover" : true
+                        }
+                    ],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "Jan 05 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639319970/WhatsApp_Image_2021-12-12_at_4.15.56_PM_ls40u2.jpg"
+                    },
+                    "location" : {
+                        "address" : "110-140 King St, Sydney NSW 2000, Australia",
+                        "coords" : {
+                            "lat" : -33.8688197,
+                            "lng" : 151.2092955
+                        }
+                    },
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "omSgW",
+                    "title" : "Checks with AWS VPC reachability",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l103", 
+                        "l102"
+                    ],
                     "createdAt" : "",
                     "dueDate" : "",
                     "byMember" : {},
@@ -65,178 +247,216 @@
                     "isComplete" : false
                 }, 
                 {
-                    "id" : "t7uEd",
-                    "title" : "Creating Demo Data Model",
+                    "id" : "CKnb5",
+                    "title" : "Options for alerter via annotations",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
                     "checklists" : [],
                     "members" : [],
-                    "labelIds" : [],
+                    "labelIds" : [ 
+                        "l104", 
+                        "l103"
+                    ],
                     "createdAt" : "",
-                    "dueDate" : "",
+                    "dueDate" : "Apr 14 2022",
                     "byMember" : {},
                     "coverStyle" : {
                         "bgColor" : "transparent",
                         "bgImg" : "none"
                     },
                     "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "AHR8k",
+                    "title" : "Analyzer that export metrics",
+                    "description" : "export metrics",
+                    "comments" : [ 
+                        {
+                            "txt" : "export",
+                            "createdAt" : 1639320088310.0
+                        }, 
+                        {
+                            "txt" : "export metric",
+                            "createdAt" : 1639320084315.0
+                        }
+                    ],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [ 
+                        "l102"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "#f5dd29",
+                        "bgImg" : "none"
+                    },
+                    "location" : {
+                        "address" : "4 Pl. de l'Hôtel de Ville, 75004 Paris, France",
+                        "coords" : {
+                            "lat" : 48.856614,
+                            "lng" : 2.3522219
+                        }
+                    },
                     "isComplete" : false
                 }
             ]
         }, 
         {
-            "id" : "zKREf",
-            "title" : "Backlog - server",
-            "tasks" : [ 
-                {
-                    "id" : "IDT72",
-                    "title" : "Filter Cmp",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "BmIZL",
-                    "title" : "Connecting Backend & Frontend",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "u4XeQ",
-                    "title" : "Task-Labels",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "xITeh",
-                    "title" : "Connecting to GitHub Pages",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }
-            ]
-        }, 
-        {
-            "id" : "JzMKW",
-            "title" : "Backlog client",
-            "tasks" : [ 
-                {
-                    "id" : "ytzZR",
-                    "title" : "Meeting with Asi, scss",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "B0I7c",
-                    "title" : "Building Main Structure",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "0u7gD",
-                    "title" : "Aside Menu",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }
-            ]
-        }, 
-        {
-            "id" : "J3GMS",
+            "id" : "r49mf",
             "title" : "In development",
             "tasks" : [ 
                 {
-                    "id" : "qM7e9",
-                    "title" : "Task-Details (modal)",
+                    "id" : "OLJT7",
+                    "title" : "Define Cassandra maintenance windows for Reaper",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "Bz1pI",
+                    "title" : "Fix Istio service annotations for NLB",
+                    "description" : "enrichment",
+                    "comments" : [ 
+                        {
+                            "txt" : "enrichment",
+                            "createdAt" : 1639320208957.0
+                        }, 
+                        {
+                            "txt" : "standard enrichment",
+                            "createdAt" : 1639320205853.0
+                        }, 
+                        {
+                            "txt" : "standard enrichment",
+                            "createdAt" : 1639320204459.0
+                        }
+                    ],
+                    "attachments" : [ 
+                        {
+                            "title" : "WhatsApp_Image_2021-12-12_at_4.15.57_PM_1_d9jezs.jpg",
+                            "url" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320217/WhatsApp_Image_2021-12-12_at_4.15.57_PM_1_d9jezs.jpg",
+                            "isCover" : true
+                        }
+                    ],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l101", 
+                        "l104"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320217/WhatsApp_Image_2021-12-12_at_4.15.57_PM_1_d9jezs.jpg"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "old6E",
+                    "title" : "Provide standard enrichment",
+                    "description" : "standard enrichment",
+                    "comments" : [],
+                    "attachments" : [ 
+                        {
+                            "title" : "background_1_guvjm4.jpg",
+                            "url" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320183/background_1_guvjm4.jpg",
+                            "isCover" : false
+                        }
+                    ],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "Jan 09 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "#b04632",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "kNv8A",
+                    "title" : "Compress build logs before uploading to long-term storage",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b606f018d964815cd01327",
+                            "username" : "Chen Leiv",
+                            "password" : "$2b$10$wJ7dWRAjCv97KQg/fnA7VemVPf3B7rNpeoZ5ME4lFeO7b/4htFwfy",
+                            "fullname" : "Chen Leiv",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gi-Hfg56aS8K24jNgP3e8SocNqpKY6qiaT1DRI9Pg=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l101"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "CKnb5",
+                    "title" : "Options for alerter via annotations",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
@@ -254,8 +474,33 @@
                     "isComplete" : false
                 }, 
                 {
-                    "id" : "bdVg0",
-                    "title" : "Build Mongo Atlas DB",
+                    "id" : "qHEXa",
+                    "title" : "Running in privileged mode",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "Nov 16 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }
+            ]
+        }, 
+        {
+            "id" : "APh2u",
+            "title" : "QA",
+            "tasks" : [ 
+                {
+                    "id" : "jUID5",
+                    "title" : "Configure Artifactory to serve as an internal GOPROXY",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
@@ -273,8 +518,87 @@
                     "isComplete" : false
                 }, 
                 {
-                    "id" : "ACrG1",
-                    "title" : "Workspace Page",
+                    "id" : "DWQWj",
+                    "title" : "Create JVM-centric utils via ephemeral containers",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l101"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "t4ds9",
+                    "title" : "Create a Vault plugin for temporary Artifactory creds",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b606f018d964815cd01327",
+                            "username" : "Chen Leiv",
+                            "password" : "$2b$10$wJ7dWRAjCv97KQg/fnA7VemVPf3B7rNpeoZ5ME4lFeO7b/4htFwfy",
+                            "fullname" : "Chen Leiv",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gi-Hfg56aS8K24jNgP3e8SocNqpKY6qiaT1DRI9Pg=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l103", 
+                        "l102"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "Jun 16 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }
+            ]
+        }, 
+        {
+            "id" : "e0wYi",
+            "title" : "Done",
+            "tasks" : [ 
+                {
+                    "id" : "jUID5",
+                    "title" : "Configure Artifactory to serve as an internal GOPROXY",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
@@ -292,14 +616,108 @@
                     "isComplete" : false
                 }, 
                 {
-                    "id" : "RBqjc",
-                    "title" : "Home Page",
+                    "id" : "V0Ppn",
+                    "title" : "Ensure K8S audit Logs are sent to loki",
+                    "description" : "audit Logs are sent ",
+                    "comments" : [ 
+                        {
+                            "txt" : "audit Logs are sent ",
+                            "createdAt" : 1639320366680.0
+                        }, 
+                        {
+                            "txt" : "audit Logs are sent ",
+                            "createdAt" : 1639320365099.0
+                        }
+                    ],
+                    "attachments" : [ 
+                        {
+                            "title" : "background_3_tyl6io.jpg",
+                            "url" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320348/background_3_tyl6io.jpg",
+                            "isCover" : false
+                        }
+                    ],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606f018d964815cd01327",
+                            "username" : "Chen Leiv",
+                            "password" : "$2b$10$wJ7dWRAjCv97KQg/fnA7VemVPf3B7rNpeoZ5ME4lFeO7b/4htFwfy",
+                            "fullname" : "Chen Leiv",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gi-Hfg56aS8K24jNgP3e8SocNqpKY6qiaT1DRI9Pg=s96-c"
+                        }
+                    ],
+                    "labelIds" : [],
+                    "createdAt" : "",
+                    "dueDate" : "Mar 10 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "#afafaf",
+                        "bgImg" : "none"
+                    },
+                    "location" : {
+                        "address" : "Viale Palmiro Togliatti, 485, 00172 Roma RM, Italy",
+                        "coords" : {
+                            "lat" : 41.87194,
+                            "lng" : 12.56738
+                        }
+                    },
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "HrHYe",
+                    "title" : "Infrastructure section in domain",
                     "description" : "",
                     "comments" : [],
                     "attachments" : [],
                     "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l103"
+                    ],
+                    "createdAt" : "",
+                    "dueDate" : "Jul 07 2022",
+                    "byMember" : {},
+                    "coverStyle" : {
+                        "bgColor" : "transparent",
+                        "bgImg" : "none"
+                    },
+                    "location" : null,
+                    "isComplete" : false
+                }, 
+                {
+                    "id" : "DWQWj",
+                    "title" : "Create JVM-centric utils via ephemeral containers",
+                    "description" : "",
+                    "comments" : [],
+                    "attachments" : [],
+                    "checklists" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l101"
+                    ],
                     "createdAt" : "",
                     "dueDate" : "",
                     "byMember" : {},
@@ -311,58 +729,53 @@
                     "isComplete" : false
                 }, 
                 {
-                    "id" : "aJ4q7",
-                    "title" : "Main Header",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
+                    "id" : "KlRYC",
+                    "title" : "Dynamically modify the ELB",
+                    "description" : "modify the ELB",
+                    "comments" : [ 
+                        {
+                            "txt" : "ELB",
+                            "createdAt" : 1639320237739.0
+                        }, 
+                        {
+                            "txt" : "modify the ELB",
+                            "createdAt" : 1639320233809.0
+                        }
+                    ],
+                    "attachments" : [ 
+                        {
+                            "title" : "WhatsApp_Image_2021-12-12_at_4.42.41_PM_jmbkoh.jpg",
+                            "url" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320254/WhatsApp_Image_2021-12-12_at_4.42.41_PM_jmbkoh.jpg",
+                            "isCover" : true
+                        }
+                    ],
                     "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
+                    "members" : [ 
+                        {
+                            "_id" : "61b606c118d964815cd01326",
+                            "username" : "Or Baadani",
+                            "password" : "$2b$10$CaCsQJ5A5X9nQGDIlsX6veUxMVOkZyB/PlOSI.YTdPYAvHZQ.DoiK",
+                            "fullname" : "Or Baadani",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14GgvvMLY5uYomqvRAQiHVXLFtpeLztM4TOBrYhAul3A=s96-c"
+                        }, 
+                        {
+                            "_id" : "61b5d468a89a7b4af0acbc10",
+                            "username" : "benernst3@gmail.com",
+                            "password" : "$2b$10$s7nutxI2k6IHJE/h27SyEOfHMetA4TbULWNAcJYK4zT.oT1XNr2gS",
+                            "fullname" : "Ben Ernst",
+                            "imgUrl" : "https://lh3.googleusercontent.com/a-/AOh14Gg3mftDLJfQbndPGNrezvJyq-o0rd_7_xZQH_E_Dw=s96-c"
+                        }
+                    ],
+                    "labelIds" : [ 
+                        "l101", 
+                        "l104"
+                    ],
                     "createdAt" : "",
-                    "dueDate" : "",
+                    "dueDate" : "May 12 2022",
                     "byMember" : {},
                     "coverStyle" : {
                         "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "qUdGK",
-                    "title" : "Group-Preview cmp",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
-                    },
-                    "location" : null,
-                    "isComplete" : false
-                }, 
-                {
-                    "id" : "xS1In",
-                    "title" : "Task-Preview cmp",
-                    "description" : "",
-                    "comments" : [],
-                    "attachments" : [],
-                    "checklists" : [],
-                    "members" : [],
-                    "labelIds" : [],
-                    "createdAt" : "",
-                    "dueDate" : "",
-                    "byMember" : {},
-                    "coverStyle" : {
-                        "bgColor" : "transparent",
-                        "bgImg" : "none"
+                        "bgImg" : "http://res.cloudinary.com/cloudinaryorb/image/upload/v1639320254/WhatsApp_Image_2021-12-12_at_4.42.41_PM_jmbkoh.jpg"
                     },
                     "location" : null,
                     "isComplete" : false
@@ -373,3 +786,4 @@
     "activities" : [],
     "isStarred" : false
 }
+    ]
