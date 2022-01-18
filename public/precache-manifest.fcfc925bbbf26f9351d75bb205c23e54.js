@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa4a255aef7c7b0a10d2",
-    "url": "/css/app.1e662427.css"
+    "revision": "68a42998fb450870c4ab",
+    "url": "/css/app.71c03612.css"
   },
   {
     "revision": "56cafbf3b59a7c8b89ef",
@@ -116,11 +116,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/undraw_work_chat_re_qes4.0b279494.svg"
   },
   {
-    "revision": "0a8a1302523ad30254ab2ee2251298bf",
+    "revision": "faeed76b143b02e80f0bf70774f24667",
     "url": "/index.html"
   },
   {
-    "revision": "aa4a255aef7c7b0a10d2",
+    "revision": "68a42998fb450870c4ab",
     "url": "/js/app.5c204f60.js"
   },
   {
