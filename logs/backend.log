@@ -1,1 +1,24 @@
 18.1.2022, 20:04:37 - INFO - Server is running on port: 3030 
+21.2.2022, 20:14:01 - INFO - Server is running on port: 3030 
+21.2.2022, 20:14:08 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:40:12 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:40:57 - DEBUG - auth.service - signup with username: undefined, fullname: undefined (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:40:57 - ERROR - Failed to signup fullname, username and password are required! (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:42:04 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:42:11 - DEBUG - auth.service - signup with username: undefined, fullname: undefined (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:42:11 - ERROR - Failed to signup fullname, username and password are required! (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:57:00 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:57:00 - DEBUG - auth.route - new account created: undefined (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 20:57:00 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:17:46 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:22:23 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:22:23 - DEBUG - auth.route - new account created: undefined (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:22:23 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:25:23 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:28:48 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:31:25 - DEBUG - auth.service - login with username: guest1@gmail.com (sid: ASPI2RhP76KMLeBn_vMtYeie7V46G6HB)
+21.2.2022, 21:33:24 - INFO - Server is running on port: 3030 
+21.2.2022, 21:43:54 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: r4qLxFwp8fnj95JNj-4Zhpc_-jkPLRIb)
+21.2.2022, 21:43:54 - DEBUG - auth.route - new account created: undefined (sid: r4qLxFwp8fnj95JNj-4Zhpc_-jkPLRIb)
+21.2.2022, 21:43:54 - DEBUG - auth.service - login with username: orbaadani@gmail.com (sid: r4qLxFwp8fnj95JNj-4Zhpc_-jkPLRIb)
+22.2.2022, 10:17:07 - INFO - Server is running on port: 3030 

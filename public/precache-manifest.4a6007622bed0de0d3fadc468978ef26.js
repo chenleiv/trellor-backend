@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68a42998fb450870c4ab",
-    "url": "/css/app.71c03612.css"
+    "revision": "83353842f5def103a504",
+    "url": "/css/app.0b5bd903.css"
   },
   {
     "revision": "56cafbf3b59a7c8b89ef",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/7.c5826275.jpg"
   },
   {
-    "revision": "ec4704b261906815f62c4730de46b67b",
-    "url": "/img/homepage.ec4704b2.jpg"
+    "revision": "bc805c80fdc6de8b9eecd26178765fbd",
+    "url": "/img/homepage.bc805c80.jpg"
   },
   {
     "revision": "648fa9faea73bcefeebcdd3c28c94c38",
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/undraw_work_chat_re_qes4.0b279494.svg"
   },
   {
-    "revision": "faeed76b143b02e80f0bf70774f24667",
+    "revision": "a51466a28b943c28d60f95270a0903db",
     "url": "/index.html"
   },
   {
-    "revision": "68a42998fb450870c4ab",
-    "url": "/js/app.5c204f60.js"
+    "revision": "83353842f5def103a504",
+    "url": "/js/app.98c53317.js"
   },
   {
     "revision": "56cafbf3b59a7c8b89ef",
